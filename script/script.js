@@ -1,7 +1,5 @@
 
-
-function  start () {
-    const productos = [
+const productos = [
         {nombre:"Coca Cola" , precio:500 },
         {nombre:"Sprite" , precio:480},
         {nombre:"Fanta", precio:480},
@@ -76,7 +74,7 @@ function  start () {
     document.getElementById ('divTotal').innerHTML = `Su total a pagar es: $${total} pesos.`;
     
 
-}
+
 
 
 

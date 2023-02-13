@@ -8,28 +8,12 @@
     <title>Java Script</title>
 </head>
 <body>
-    <h1>Primera entrega</h1>
+    <h1>Segunda entrega</h1>
     <p>Facundo Borssolasco</p>
     <div class="linea"></div>
-    <div class="main">
-        <button onclick="Ingreso ()" class="">Bienvenido haz clic</button>
-        <button onclick="clima ()" class="">Veamos tu clima</button>
-        <button onclick="ingresoBar ()" class="">Ingreso Bar</button>
-    </div>
+    <button type="button" id="btn" onclick="start ()">Start</button>
     <div class="linea"></div>
-    <!-- casa de cambio -->
-
-    <form class="form" action="">
-        <h2>CASA DE CAMBIO</h2>
-        <P>Seleccione su moneda a convertir (max. 1 Millon)</P>
-        <div>
-            <input type="radio" name="cambio" id="uno">   Dolar
-            <input type="radio" name="cambio" id="dos">   Euro
-        </div>
-        <p>monto en pesos ARs$:</p>
-        <input type="number" id="valor" min="1" max="1000000" required>
-        <input type="button" class="botorCotizar" value="Cotizar" onclick="casaCambio()">
-    </form>
+    <div id="divTotal"></div>
     
     <script src="./script/script.js"></script>
 </body>
